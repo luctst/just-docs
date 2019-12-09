@@ -24,6 +24,7 @@
 	},
 	"keywords": [],
 	"scripts": {
+		"debug": "nodemon lib/bin/just-docs.js",
 		"test": "ava --verbose ./test/*.js",
 		"test:watch": "ava --watch --verbose --fail-fast ./test/*.js",
 		"lint": "npx eslint --cache './lib/**/*.js'",
@@ -34,14 +35,17 @@
 	},
 	"devDependencies": {
 		"ava": "2.4.0",
-		"chalk": "^3.0.0",
 		"eslint": "6.7.2",
 		"eslint-config-airbnb-base": "14.0.0",
 		"eslint-config-prettier": "6.7.0",
 		"eslint-plugin-import": "2.18.2",
 		"eslint-plugin-prettier": "3.1.1",
 		"eslint-watch": "6.0.1",
-		"meow": "^5.0.0",
+		"nodemon": "^2.0.1",
 		"prettier": "1.19.1"
+	},
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"meow": "^5.0.0"
 	}
 }
