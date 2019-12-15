@@ -1,6 +1,6 @@
 ---
 name: Task
-about: Use this template when you have to create a task to do.
+about: Use this template when you have to create a task to be done.
 ---
 
 ## Folder, file
